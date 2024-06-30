@@ -7,7 +7,7 @@
 .emoji {
     font-size: 50px; 
     display: inline-block;
-    position: relative; 
+    position: relative;  
     animation: moveLeft 5s linear infinite; 
 }
  

@@ -7,7 +7,7 @@ export class Empleado {
         this.oficina = oficina;
         this.salario = salario;
         
-    }
+    } 
         
         _id: string; // Sub guión id porque los datos van a venir de MOngodb
         nombre: string;

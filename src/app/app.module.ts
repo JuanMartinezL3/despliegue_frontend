@@ -12,7 +12,7 @@ import { EmpleadosComponent } from './components/empleados/empleados.component';
     AppComponent,
     EmpleadosComponent
   ], 
-  imports: [
+  imports: [ 
     BrowserModule,
     AppRoutingModule,
     FormsModule,
