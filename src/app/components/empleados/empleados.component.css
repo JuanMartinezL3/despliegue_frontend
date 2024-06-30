@@ -1,0 +1,134 @@
+.header {
+    text-align: center; 
+    margin-top: 20px;  
+  }
+
+
+
+  
+  /* Reset CSS */
+  * {
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+    color: #060606;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ae1fa05f;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+  
+  .col {
+    width: 100%;
+    max-width: auto;
+    
+  }
+  
+  .card {
+    background-color: #2b75bb;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    
+    
+    
+  }
+  
+  .card .row {
+    margin-bottom: 15%;
+  }
+  
+  .input-field {
+    position: relative;
+    margin-bottom: 30px;
+    
+    
+    
+  }
+  
+  .input-field i.material-icons {
+    position:relative;
+    top: 0%;
+    left: -20%;
+    padding: 0px;
+    color: #e00d0d;
+  }
+  
+  .input-field input {
+    width: calc(100% - 40px);
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #26a69b;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 20%;
+    margin-left: 10px;
+  }
+  
+  .input-field label {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: #060606;
+    font-size: 20px;
+    transition: 0.2s ease all;
+    pointer-events: none;
+    left: 45px;
+  }
+  
+  .input-field input:focus + label,
+  .input-field input:not(:placeholder-shown) + label {
+    top: 20px;
+    left: 0px;
+    font-size: 20px;
+    color: #26a69a;
+    text-align: 20%;
+    
+  }
+  
+  .input-field input:focus {
+    border-color: #c87522;
+    outline: 10%;
+  }
+  
+  .card-action {
+    margin-top: auto;
+    text-align: center;
+  }
+  
+  .card-action .btn {
+    background-color: #ee9e09;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px ;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-left: 300px;
+    margin-top: -10%;
+    
+  }
+  
+  .card-action .btn:hover {
+    background-color: #2b75bb;
+  }
+  
+  .card-action .btn.right {
+    margin-right: 300px;
+    
+  }

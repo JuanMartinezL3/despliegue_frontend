@@ -1,0 +1,25 @@
+
+.brand-logo{
+    font-size: 3.5rem;
+    padding-left: 0%
+    
+}
+.emoji {
+    font-size: 50px; 
+    display: inline-block;
+    position: relative; 
+    animation: moveLeft 5s linear infinite; 
+}
+
+@keyframes moveLeft {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+
+
+
