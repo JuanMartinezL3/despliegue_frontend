@@ -15,5 +15,5 @@ export class Empleado {
         oficina: string;
         salario: number;
         
- }
+ } 
 

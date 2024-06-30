@@ -10,7 +10,7 @@
     position: relative; 
     animation: moveLeft 5s linear infinite; 
 }
-
+ 
 @keyframes moveLeft {
     0% {
         left: 100%;

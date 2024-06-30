@@ -11,7 +11,7 @@ import { EmpleadosComponent } from './components/empleados/empleados.component';
   declarations: [
     AppComponent,
     EmpleadosComponent
-  ],
+  ], 
   imports: [
     BrowserModule,
     AppRoutingModule,
